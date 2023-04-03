@@ -47,10 +47,10 @@ const PanchayatMemberComponent = () => {
                         <div className='team-content-block'>
                         <div className="team-block">
                             <div className="team-image">
-                                <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1670563789/vp/dongrim/team/dong-sarpanch-min_u6tdkd.jpg'} alt=""  />
+                                <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1680153734/vp/mauxi/sarpimg2_xq9cnv.jpg'} alt="Somnath Dhaktu Kale"  />
                             </div>
                             <div className="team-content">
-                                <p className="darkGrey">Sarita Fatgo Gaonkar</p>
+                                <p className="darkGrey">Somnath Dhaktu Kale</p>
                                 <p className="grey">
                                 Sarpanch  </p>
                             </div>
@@ -64,10 +64,10 @@ const PanchayatMemberComponent = () => {
                             <div className='team-content-block'>
                                 <div className="team-block">
                                     <div className="team-image">
-                                        <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671104555/vp/dongrim/team/image_1_gu4x1o.jpg'} alt=""  />
+                                        <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1680153881/vp/mauxi/Sayaji_Pandurang_Sawant_sfruti.jpg'} alt="Sayaji Pandurang Sawant"  />
                                     </div>
                                     <div className="team-content">
-                                        <p className="darkGrey">Nilesh S. parwar</p>
+                                        <p className="darkGrey">Sayaji Pandurang Sawant</p>
                                         <p className="grey">
                                         Member </p>
                                     </div>
@@ -83,12 +83,12 @@ const PanchayatMemberComponent = () => {
                             <div className='team-content-block'>
                                 <div className="team-block">
                                     <div className="team-image">
-                                        <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671166873/vp/dongrim/team/Untitled-1_jzwlen.jpg'} alt=""  />
+                                        <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1680153304/vp/mauxi/Radhiki_Krishna_Sawant_xag5px.jpg'} alt="Radhiki Krishna Sawant"  />
                                     </div>
                                     <div className="team-content">
-                                        <p className="darkGrey">Tanaya T. Gaonkar</p>
+                                        <p className="darkGrey">Radhiki Krishna Sawant</p>
                                         <p className="grey">
-                                        dy sarpanch  </p>
+                                        Dy Sarpanch  </p>
                                     </div>
                                 </div>
                             </div>
@@ -104,10 +104,10 @@ const PanchayatMemberComponent = () => {
                             <div className='team-content-block'>
                                 <div className="team-block">
                                     <div className="team-image">
-                                        <Image className='lazy' layout='fill' src={' https://res.cloudinary.com/depg2aab2/image/upload/v1671104553/vp/dongrim/team/image_3_ijapfh.jpg'} alt=""  />
+                                        <Image className='lazy' layout='fill' src={' https://res.cloudinary.com/depg2aab2/image/upload/v1680153970/vp/mauxi/Kanta_Laxman_Gawas_qvlyen.jpg'} alt="Kanta Laxman Gawas"  />
                                     </div>
                                     <div className="team-content">
-                                        <p className="darkGrey">Suresh Kashinath Ainkar</p>
+                                        <p className="darkGrey">Kanta Laxman Gawas</p>
                                         <p className="grey">
                                         Member  </p>
                                     </div>
@@ -120,14 +120,14 @@ const PanchayatMemberComponent = () => {
                         
                         <TreeNode label={
                         <div>
-                            <Button className='team-level'>Ward 5</Button>
+                            <Button className='team-level'>Ward 4</Button>
                             <div className='team-content-block'>
                                 <div className="team-block">
                                     <div className="team-image">
-                                        <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671104553/vp/dongrim/team/image_4_ydkehp.jpg'} alt=""  />
+                                        <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1680154084/vp/mauxi/GurudasChandrakantGawas_t3ieia.jpg'} alt="Gurudas Chandrakant Gawas"  />
                                     </div>
                                     <div className="team-content">
-                                        <p className="darkGrey">Vinayak Uttam Gawas</p>
+                                        <p className="darkGrey">Gurudas Chandrakant Gawas</p>
                                         <p className="grey">
                                         Member  </p>
                                     </div>
@@ -139,14 +139,14 @@ const PanchayatMemberComponent = () => {
                         </TreeNode>
                         <TreeNode label={
                         <div>
-                            <Button className='team-level'>Ward 6</Button>
+                            <Button className='team-level'>Ward 5</Button>
                             <div className='team-content-block'>
                                 <div className="team-block">
                                     <div className="team-image">
-                                        <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671104553/vp/dongrim/team/image_6_pj401y.jpg'} alt=""  />
+                                        <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1680154378/vp/mauxi/Sulbha_Balkrishna_Desai_fegdbr.jpg'} alt="Sulbha Balkrishna Desai"  />
                                     </div>
                                     <div className="team-content">
-                                        <p className="darkGrey">Anushka Anant Gawas</p>
+                                        <p className="darkGrey">Sulbha Balkrishna Desai</p>
                                         <p className="grey">
                                             Member  </p>
                                     </div>
@@ -159,14 +159,14 @@ const PanchayatMemberComponent = () => {
 
                         <TreeNode label={
                         <div>
-                            <Button className='team-level'>Ward 7</Button>
+                            <Button className='team-level'>Ward 6</Button>
                             <div className='team-content-block'>
                                 <div className="team-block">
                                     <div className="team-image">
-                                        <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671104553/vp/dongrim/team/image_2_cej3l0.jpg'} alt=""  />
+                                        <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1680154571/vp/mauxi/PritiPratapGaonkar_vmeim9.jpg'} alt="Priti Pratap  Gaonkar"  />
                                     </div>
                                     <div className="team-content">
-                                        <p className="darkGrey">Subhash Gawade</p>
+                                        <p className="darkGrey">Priti Pratap  Gaonkar</p>
                                         <p className="grey">
                                             Member  </p>
                                     </div>
@@ -179,16 +179,16 @@ const PanchayatMemberComponent = () => {
 
                         <TreeNode label={
                         <div>
-                            <Button className='team-level'>Ward 8</Button>
+                            <Button className='team-level'>Ward 7</Button>
                             <div className='team-content-block'>
                                 <div className="team-block">
                                     <div className="team-image">
-                                        <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671104554/vp/dongrim/team/image_7_fngzoq.jpg '} alt=""  />
+                                        <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1680153734/vp/mauxi/sarpimg2_xq9cnv.jpg'} alt="Somnath Dhaktu Kale"  />
                                     </div>
                                     <div className="team-content">
-                                        <p className="darkGrey">Suchita Premkumar Gaonkar </p>
+                                        <p className="darkGrey">Somnath Dhaktu Kale </p>
                                         <p className="grey">
-                                            Member  </p>
+                                            Sarpanch </p>
                                     </div>
                                 </div>
                             </div>
@@ -197,9 +197,9 @@ const PanchayatMemberComponent = () => {
                             
                         </TreeNode>
 
-                        <TreeNode label={
+                      {/** <TreeNode label={
                         <div>
-                            <Button className='team-level'>Ward 9</Button>
+                            <Button className='team-level'>Ward 8</Button>
                             <div className='team-content-block'>
                                 <div className="team-block">
                                     <div className="team-image">
@@ -217,7 +217,7 @@ const PanchayatMemberComponent = () => {
                             
                         </TreeNode>
 
-
+                    */ }
                     </TreeNode>
                     <TreeNode label={
                     <div>
@@ -228,7 +228,7 @@ const PanchayatMemberComponent = () => {
                                 <Image className='lazy' layout='fill' src={'https://res.cloudinary.com/depg2aab2/image/upload/v1667626182/vp/nagoa/user-min_dbcgcb.jpg'} alt=""  />
                             </div>
                             <div className="team-content">
-                                <p className="darkGrey">Sarvesh R. Gaonkar</p>
+                                <p className="darkGrey">Sandeep Halyali </p>
                                 <p className="grey">
                                 Secretary  </p>
                             </div>

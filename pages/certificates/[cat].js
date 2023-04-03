@@ -7,6 +7,7 @@ import { useRouter } from 'next/router';
 
 import CertificatesComponent from '../../components/certificates/CertificatesComponent';
 export async function getServerSideProps(context) {
+  
   const cDataQuery = await fetch(`${process.env.WP_API_PATH}pages?slug=${context.query.uri}`,{
     method: 'GET',
     headers: {
@@ -22,7 +23,7 @@ const village = ({setRegCertData,cData}) => {
   const router=useRouter()
   setRegCertData(null)  
     const tempTitle=router.query.title;
-    //console.log('router',cData[0])
+  console.log('router',router)
   return (
     <>
       

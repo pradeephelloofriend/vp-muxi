@@ -20,9 +20,9 @@ const panchmembers = () => {
                     </div>
                     <div className="row">
                         <div className="col-md-6 col-lg-6 col-xl-6 mx-auto text-center">
-                            <img src="http://cdn.onlinewebfonts.com/svg/img_357118.png" className="membersimages2" alt="" />
+                            <img src="https://res.cloudinary.com/depg2aab2/image/upload/v1680112407/vp/mauxi/sarpimg_ag3doq.jpg" className="membersimages2" alt="" />
                             <h4 className="display-7 mb-0">Sarpanch</h4>
-                            <p className="lead fs-lg mb-2 px-xl-10 px-xxl-15">Full Name</p>
+                            <p className="lead fs-lg mb-2 px-xl-10 px-xxl-15">Somnath Dhaktu Kale</p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-6 mx-auto text-center">
                             <img src="http://cdn.onlinewebfonts.com/svg/img_357118.png" className="membersimages2" alt="" />

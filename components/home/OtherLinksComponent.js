@@ -7,7 +7,7 @@ const OtherLinksComponent = () => {
             <div className='row'>
                 <div className='col-3'>
                     <Card className='ol-card ol-hos'
-                    title={<b>Hospitals in Dongurli,Satari</b>}
+                    title={<b>Hospitals in Mauxi,Satari</b>}
                     >
                         <div className='ol-box'>
                             <ul className='text-white'>
@@ -23,7 +23,7 @@ const OtherLinksComponent = () => {
                 </div>
                 <div className='col-3'>
                     <Card className='ol-card ol-tur'
-                    title={<b>Tourist Places Near By Dongurli</b>}
+                    title={<b>Tourist Places Near By Mauxi</b>}
                     >
                         <div className='ol-box'>
                             <ul className='text-white'>
@@ -39,7 +39,7 @@ const OtherLinksComponent = () => {
                 </div>
                 <div className='col-3'>
                     <Card className='ol-card ol-park'
-                    title={<b>Local Parks in Dongurli,Satari</b>}
+                    title={<b>Local Parks in Maux,Satari</b>}
                     >
                         <div className='ol-box'>
                             <ul className='text-white'>
@@ -55,7 +55,7 @@ const OtherLinksComponent = () => {
                 </div>
                 <div className='col-3'>
                     <Card className='ol-card ol-park'
-                    title={<b>Governement Offices near Dongurli,Satari</b>}
+                    title={<b>Governement Offices near Mauxi,Satari</b>}
                     >
                         <div className='ol-box'>
                             <ul className='text-white'>

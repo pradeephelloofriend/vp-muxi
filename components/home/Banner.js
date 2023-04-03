@@ -15,7 +15,7 @@ const {Title,Text}=Typography
 SwiperCore.use([Pagination]);
 
 const Banner = ({sliderData,noticeData}) => {
-  //console.log('sliderdata',sliderData)
+  console.log('sliderdata',sliderData)
   //const Demo= sliderData.content.map(i=>i)
   //console.log('demo',Demo)
     return (
@@ -28,7 +28,7 @@ const Banner = ({sliderData,noticeData}) => {
                 <Swiper spaceBetween={30}  pagination={{
               "clickable": true
             }} className="mySwiper">
-              {sliderData.map((i,index)=>
+              {/*sliderData.map((i,index)=>
               <SwiperSlide key={index}>
                 <img
                   alt="s1"
@@ -37,24 +37,36 @@ const Banner = ({sliderData,noticeData}) => {
                 />
                 <div className="crousel_content container">
                   {/*<Title level={2} className="text-white">{i.caption_small}</Title>
-                  <Title level={4} className="text-white mt-1">{i.caption_big}</Title>*/}
+                  <Title level={4} className="text-white mt-1">{i.caption_big}</Title>*
                 </div>
               </SwiperSlide>
-              )}
+          )*/}
+          {sliderData.map((v,idx)=>
+          <SwiperSlide key={idx}>
+           <img
+                  alt="s1"
+                  
+                  src={v.image.url}
+                />
+          </SwiperSlide>
+          
+          )}
+         
             </Swiper>
             <div className='slider-block mt-10'>
-              <div class="caption1"><h1>Village Panchayat Birondem</h1></div>
+              <div class="caption1"><h1>Village Panchayat Mauxi</h1></div>
               <div className='slider-content'>
-                <p>Birondem village is located in Satari taluka of North Goa district in Goa, India. It is situated 8km away from sub-district headquarter Valpoi (tehsildar office) and 61km away from district headquarter Panaji. As per 2009 stats, Birondem village is also a gram panchayat.</p>
-                <p>The total geographical area of village is 277.56 hectares. Birondem has a total population of 476 peoples, out of which male population is 244 while female population is 232. Literacy rate of birondem village is 81.51% out of which 86.48% males and 76.29% females are literate. There are about 126 houses in birondem village. Pincode of birondem village locality is 403506.</p>
-                  <p>When it comes to administration, Birondem village is administrated by a sarpanch who is elected representative of the village by the local elections. As per 2019 stats, Birondem village comes under Poriem assembly constituency & North Goa parliamentary constituency. Satari is nearest town to birondem village for all major economic activities.</p>
+                <p>Mauxi village is located in Satari taluka of North Goa district in Goa, India. It is situated 3km away from sub-district headquarter Valpoi (tehsildar office) and 62km away from district headquarter Panaji. As per 2009 stats, Mauxi is the gram panchayat of Mauzi village.</p>
+                <p>TThe total geographical area of village is 629.1 hectares. Mauxi has a total population of 1,375 peoples, out of which male population is 709 while female population is 666. Literacy rate of mauxi village is 73.75% out of which 81.95% males and 65.02% females are literate. There are about 295 houses in mauxi village. Pincode of mauxi village locality is 403506.</p>
+                  <p>When it comes to administration, Mauxi village is administrated by a sarpanch who is elected representative of the village by the local elections. As per 2019 stats, Mauxi village comes under Poriem assembly constituency & North Goa parliamentary constituency. Satari is nearest town to mauzi village for all major economic activities.</p>
+                  <p>The primary occupation of the locals in this area is agriculture. The main crop cultivated is paddy, while other crops such as bhat, nachani, kaji, keli, mirsang, supari, and coconut are also grown. The land is ploughed using draught cattle, which is a traditional method that has been used for generations.In addition to the main crops, there are also minor crops such as chillies, which make up about 10% of the total crops grown. Other vegetables such as red amaranth, radish, turnip, and ladies finger are also cultivated.</p>
               <Divider/>
               <div className='slider-help'>
                 <div className='row'>
                   <div className='col-6'>
                     <h4>May I Help You</h4>
-                    <a href="tel:+822456974" class="me-xl-8 text-c-blue"><i class="fa fa-mobile me-xl-1"></i>Call Us For Inquiry: +91 86688 67032</a><br/>
-                    <a href="mailto:hello@surety.com" class="me-xl-8 text-c-blue"><i class="fa fa-envelope-o me-xl-1"></i>Email: contactus@vpdongurlithane.com</a>
+                    <a href="tel:+822374279" class="me-xl-8 text-c-blue"><i class="fa fa-mobile me-xl-1"></i>Call Us For Inquiry: +91 7030955441</a><br/>
+                    <a href="mailto:hello@surety.com" class="me-xl-8 text-c-blue"><i class="fa fa-envelope-o me-xl-1"></i>Email: vpmauxi@gmail.com</a>
                   </div>
                   <div className='col-6'>
                   <h4>Important Links</h4>
@@ -76,18 +88,32 @@ const Banner = ({sliderData,noticeData}) => {
                 <div className='pub-msg'>
                   <div className='pub-img'>
                     <img src='https://res.cloudinary.com/depg2aab2/image/upload/v1665069348/vp/nagoa/sarpanch_ybjuif.png' alt=''/>
-                    <h1>Pramod Sawant</h1>
-                    <h4>The Hon'ble Governor Shri of Goa</h4>
+                    <h1>Shri. Somnath Dhaktu Kale</h1>
+                    <h4>The Sarpanch of Village Panchayat Mauxi</h4>
                   </div>
                   <div className='sar-msg'>
                   
                         <Card className='abt-card dev0-card ' 
                         title={
                         <>
-                        <Image src={'https://res.cloudinary.com/depg2aab2/image/upload/v1665070375/vp/nagoa/msg_bt2e56.png'} alt='' height={35} width={35} />
+                        <Image src={'https://res.cloudinary.com/depg2aab2/image/upload/v1680153734/vp/mauxi/sarpimg2_xq9cnv.jpg'} alt='' height={35} width={35} />
                           <span className='abt-card-head-title text-white'> Sarpanch message to the public</span>
                         </>}>
-                            <p>The lives of local communities are closely interwoven with their environment, and are dependent upon their immediate resources for meeting their needs. These communities have a vast knowledge about local flora and fauna which is very important for biodiversity conservation. Much of this knowledge is orally passed on from generation to generation. Such indigenous knowledge needs to be recorded and preserved before it is lost. Despite all threats, diversity of the species and diversity within the species still continue to survive. Their continued existence is due to farmers and other communities living within and in the vicinity of the forest and other ecosystems. Their cultural practices and knowledge systems have helped nurture biodiversity. Nature worship is a tribal belief based on the premise that all creations of nature have to be protected. Such beliefs have helped preserve several virgin forests in pristine form called Sacred Groves (the forests of God and Goddesses). These patches of forest or parts of large forests have been left untouched by the local people and any interference with them is banned, practice dating back to thousands of years.</p>
+                            <p>Greetings to all members of the community,</p>
+
+<p>As the Sarpanch of Mauxi Village Panchayat, I would like to take this opportunity to address the public and share some important information.</p>
+
+<p>Firstly, I would like to remind everyone of the importance of following COVID-19 safety protocols. The pandemic is still ongoing, and it is crucial that we continue to wear masks, practice social distancing, and maintain good hygiene to prevent the spread of the virus.</p>
+
+<p>Secondly, I would like to encourage all members of the community to participate in the upcoming local elections. Your vote is your voice, and it is essential that we elect leaders who will work towards the betterment of our village.</p>
+
+<p>Lastly, I would like to remind everyone that my office is always open to hear your concerns and suggestions. Together, we can work towards creating a better and more prosperous community.</p>
+
+<p>Thank you for your attention, and I wish you all good health and happiness.</p>
+
+<p>Sincerely,</p>
+
+<p>[Shri. Somnath Dhaktu Kale]</p>
                           </Card>
                         
                   </div>

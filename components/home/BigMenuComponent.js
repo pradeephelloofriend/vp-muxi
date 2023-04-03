@@ -36,7 +36,7 @@ const BigMenuComponent = () => {
             actions={[<DownSquareFilled key="ellipsis" />,]}
             title={
               <>
-                <span className='abt-card-head-title text-white'>Explore Dongruli Thane </span>
+                <span className='abt-card-head-title text-white'>Explore Mauxi </span>
                 <Image src={'https://res.cloudinary.com/depg2aab2/image/upload/v1670307442/vp/dongrim/map-min_vkmwjd.png'} alt='' height={25} width={25} />
               </>
             }>

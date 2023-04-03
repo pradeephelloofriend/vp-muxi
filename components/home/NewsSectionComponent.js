@@ -28,21 +28,20 @@ const NewsSectionComponent = ({newsData,setTabKey,devData}) => {
                               <Card className='abt-card ' 
                               title={
                                 <>
-                                  <span className='abt-card-head-title text-white'>Villages in Dongurli Gram Panchayat </span>
+                                  <span className='abt-card-head-title text-white'>Villages in Mauxi Gram Panchayat </span>
                                   <Image src={'https://res.cloudinary.com/depg2aab2/image/upload/v1670307442/vp/dongrim/map-min_vkmwjd.png'} alt='' height={35} width={35} />
                                 </>
                               }>
                                 <div className='vil-card-block'>
                                   <ul className='text-c-blue'>
-                                    <li>Choraundem</li>
-                                    <li>Dongurli</li>
-                                    <li>Golauli</li>
-                                    <li>Ivrem Buzruco</li>
-                                    <li>Ivrem Curdo</li>
-                                    <li>Naneli</li>
-                                    <li>Rivem</li>
-                                    <li>Pali</li>
-                                    <li>Surla</li>
+                                    <li>Kopardem</li>
+                                    <li>Indiranagar, Dhangar wada, & Harijanwada Kopardem</li>
+                                    <li>Dabem</li>
+                                    <li>Zarme</li>
+                                    <li>Panchayatwada, Chinchmal,Warchawada, Desai wada Mauxi</li>
+                                    <li>Deulwada, & Panvelakarwada Mauxi</li>
+                                    <li>Nagvem</li>
+                        
                                   </ul>
                                 </div>
                                 {/*<div className="mb-3" dangerouslySetInnerHTML={{ __html: "villageData.acf.desc" }} />*/}

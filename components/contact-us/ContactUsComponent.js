@@ -32,7 +32,9 @@ const ContactUsComponent = ({cData}) => {
                       </div>
                       <div className='col-md-6'>
                       <div className='scg-image-block '>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30778.993503011257!2d73.9347280619629!3d15.356208107164571!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0ae69d3273f7d35!2sNagoa%20Village%20Panchayat!5e0!3m2!1sen!2sin!4v1664186610670!5m2!1sen!2sin"  width="100%" height="300"  loading="lazy"></iframe>
+                               
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246128.36466048894!2d73.84727078436426!3d15.443731493113157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfa22162d532cf%3A0xd9fa199fd2965c65!2sMauxi%20Panchayat!5e0!3m2!1sen!2sin!4v1680155665828!5m2!1sen!2sin" width="400" height="300" loading="lazy"></iframe>
+
                             </div>
                       </div>
                   </div>
