@@ -11,7 +11,7 @@
   color: #ffdebf !important;
 }
 .text-light-orange{
-  color: #ffc300 !important;
+  color: #97b946 !important;
 }
 .demo-icon {
   font-family: "fontello";
@@ -46,7 +46,7 @@
 }
 .viewmorebtn{
   width: 150px;
-  background-color:#7f7544;
+  background-color:#97b946;
   text-align: center;
   font-weight: bold;
   border-radius: 10px;
@@ -60,7 +60,7 @@
 }
 .detail-area .view-btn{
   border-radius: 20px;
-  background: #7f7544;
+  background: #97b946;
   color: white;
   font-weight: 600;
 }
@@ -110,11 +110,11 @@ text-align: center;
 }
 
 .allheadcolor{
-  color: #7f7544;
+  color: #97b946;
 }
 
 .newsviewmorebtn2{
-  background-color: #7f7544;
+  background-color:#97b946;
   color: white;
   border-radius: 10px;
   
@@ -257,7 +257,7 @@ text-align: center;
 }
 .day{
   font-size: 30px;
-  color: #7f7544;
+  color: #97b946;
 }
 
 .paraclassdate{
@@ -271,7 +271,7 @@ text-align: center;
 }
 
 .newshead{
-  color: #7f7544;
+  color: #97b946;
 }
 
 
@@ -408,7 +408,7 @@ float: right;
 }
 
 .class-contact{
-    background-color: #7f7544;
+    background-color: #97b946;
     color:whitesmoke !important;
     padding-top: 30px !important;
   
@@ -1007,11 +1007,11 @@ cursor: -webkit-grab; cursor: grab;
 
 
 .baredcolor{
-    background-color: #7f7544;
+    background-color: #97b946;
   
 }
 .bgsection{
-  background-color:#7f7544 ;
+  background-color:#97b946 ;
 }
 
 .ant-input-textarea {
@@ -1067,10 +1067,10 @@ padding-left: 0rem;
     color: white ;
 }
 .bg-c-blue{
-    background-color:#7f7544;
+    background-color:#97b946;
 }
 .link-c-blue{
-  color: #7f7544;
+  color: #97b946;
 }
 .p-relative{
   position: relative;
@@ -1689,7 +1689,7 @@ margin-right: 70px;
 }
 .top-header-area{
   line-height: 1.8;
-  background-color: #747161;
+  background-color: #97b946;
 }
 .header-content-right a,
 .header-content-left a{
@@ -5177,20 +5177,20 @@ margin-right: 70px;
 	}
 }
 .abt-card{
-  border: 1px solid #7f7544 !important;
+  border: 1px solid #97b946 !important;
   border-radius: 0px;
   border-top-left-radius: 0px !important ;
   border-top-right-radius: 0px !important ;
 }
 .abt-card .ant-card-head{
   min-height: 0;
-  background: #7f7544;
+  background: #97b946;
   padding: 0;
   border-bottom: 0px solid #f0f0f0;
     border-radius: 0px 0px 0 0;
 }
 .abt-card .ant-card-actions{
-background-color:#7f7544 ;
+background-color:#97b946 ;
 border-top: 0px solid #f0f0f0;
 }
 .abt-card .ant-card-actions > li > span:hover {
@@ -5225,10 +5225,11 @@ border-top: 0px solid #f0f0f0;
 
 .abt-card .ant-card-head-title {
   padding: 4px;
-    font-size: 17px;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .abt-title-box{
@@ -5318,7 +5319,7 @@ border-top: 0px solid #f0f0f0;
 .news-date {
     width: 94px;
     background-color: #ffffff;
-    color: #7f7544;
+    color: #97b946;
     text-transform: uppercase;
     font-size: 30px;
     text-align: center;
@@ -5329,7 +5330,7 @@ border-top: 0px solid #f0f0f0;
     position: relative;
     min-height: 103px;
     
-    border: 1px solid #7f7544;
+    border: 1px solid #97b946;
 }
 .news-sidebar .news-date::before {
 	display: none;
@@ -5343,7 +5344,7 @@ border-top: 0px solid #f0f0f0;
     font-size: 14px;
     display: block;
     border-radius: 0px 0px 0px 3px;
-    background-color: #7f7544;
+    background-color: #97b946;
     position: absolute;
     color: #fff;
     left: -1px;
@@ -5393,7 +5394,7 @@ margin-top: 24px;
 }
 @-webkit-keyframes pulse2 {
   0% {
-      background-color: #7f7544;
+      background-color: #97b946;
   }
 
   100% {
@@ -5403,7 +5404,7 @@ margin-top: 24px;
 
 @keyframes pulse2 {
   0% {
-      background-color: #7f7544;
+      background-color:#97b946;
   }
 
   100% {
@@ -5435,14 +5436,14 @@ margin-top: 24px;
 }
 .facility-tab .ant-tabs-tab.ant-tabs-tab-active {
   color: #fff;
-  background-color: #7f7544;
+  background-color: #97b946;
   
 }
 .facility-tab .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
   color: #fff;
 }
 .facility-tab .ant-tabs-tab-btn{
-  color: #7f7544;
+  color: #97b946;
 }
 .facility-tab .ant-tabs-tab-btn:after {
   content: "\f105";
@@ -5475,12 +5476,12 @@ padding-bottom: 24px;
   padding: 0px;
 }
 .faci-card {
-  border: 1px solid #7f7544 !important;
+  border: 1px solid #97b946 !important;
 }
 
 /*footer*/
 .c-footer{
-  background-color: #747161;
+  background-color: #97b946;
   /*background-image: url('../img/page-bg.gif');*/
 }
 .c-footer hr{
@@ -5554,14 +5555,14 @@ button.close {
 }
 .about-us-tab .ant-tabs-tab.ant-tabs-tab-active {
   color: #fff;
-  background-color: #7f7544;
+  background-color:#97b946;
   
 }
 .about-us-tab .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
   color: #fff;
 }
 .about-us-tab .ant-tabs-tab-btn{
-  color: #7f7544;
+  color: #97b946;
 }
 .about-us-tab .ant-tabs-tab-btn:after {
   content: "\f105";
@@ -5586,7 +5587,7 @@ padding-bottom: 24px;
   display: block;
   width: 5px;
   height: 35px;
-  background-color: #7f7544;
+  background-color: #97b946;
   position: absolute;
   top: 0;
   left: 0;
@@ -5692,7 +5693,7 @@ margin-bottom: 18px;
 }
 
 .scheme-block .ant-table-thead > tr > th{
-  background: #7f7544;
+  background: #97b946;
   padding: 7px 12px;
   font-weight: 600;
   color: #fff;
@@ -5702,7 +5703,7 @@ margin-bottom: 18px;
 }
 .scheme-block .ant-pagination-item-active {
   
-  border-color: #7f7544;
+  border-color: #97b946;
 }
 .tax-form-item{
   width: 40%;
@@ -5782,6 +5783,7 @@ background-size:cover;
 }
 .dev0-card .ant-card-head-title{
 justify-content: flex-start;
+
 }
 .ol-hos .ant-card-body{
   background-image: url('https://res.cloudinary.com/depg2aab2/image/upload/v1670497071/vp/dongrim/helth-mi_ddyyjw.jpg');
@@ -5837,11 +5839,11 @@ border: 0px;
 }
 .sar-msg .abt-card .ant-card-head {
   
-  background: #7f7544;
+  background: #97b946;
   
 }
 .icon-list.bullet-theme i {
-  color: #7f7544;
+  color: #97b946;
 }
 .pub-msg .pub-img img{
   height: 180px;
@@ -5861,13 +5863,13 @@ border: 0px;
   height: 65px;
 }
 .scheme-slider .ant-btn{
-  border-color: #7f7544;
+  border-color: #97b946;
 font-size: 20px;
 }
 
   .scheme-slider .ant-btn:hover, .scheme-slider .ant-btn:focus, .scheme-slider .ant-btn:active {
     
-    background: #7f7544;
+    background:#97b946;
 }
 .scheme-slider .ant-btn:hover, .scheme-slider .ant-btn:focus{
   color: #ffffff;

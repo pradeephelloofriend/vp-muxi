@@ -87,7 +87,7 @@ const Banner = ({sliderData,noticeData}) => {
               <div className='col-5'>
                 <div className='pub-msg'>
                   <div className='pub-img'>
-                    <img src='https://res.cloudinary.com/depg2aab2/image/upload/v1665069348/vp/nagoa/sarpanch_ybjuif.png' alt=''/>
+                    <img src='https://res.cloudinary.com/depg2aab2/image/upload/v1680153734/vp/mauxi/sarpimg2_xq9cnv.jpg' alt=''/>
                     <h1>Shri. Somnath Dhaktu Kale</h1>
                     <h4>The Sarpanch of Village Panchayat Mauxi</h4>
                   </div>
@@ -96,8 +96,8 @@ const Banner = ({sliderData,noticeData}) => {
                         <Card className='abt-card dev0-card ' 
                         title={
                         <>
-                        <Image src={'https://res.cloudinary.com/depg2aab2/image/upload/v1680153734/vp/mauxi/sarpimg2_xq9cnv.jpg'} alt='' height={35} width={35} />
-                          <span className='abt-card-head-title text-white'> Sarpanch message to the public</span>
+                        <Image src={'https://res.cloudinary.com/depg2aab2/image/upload/v1680691424/vp/mauxi/information-button_gugkdi.png'} alt='' height={35} width={35} />
+                          <span className='abt-card-head-title text-white'>  Sarpanch message to the public</span>
                         </>}>
                             <p>Greetings to all members of the community,</p>
 
