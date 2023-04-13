@@ -97,7 +97,7 @@ const Banner = ({sliderData,noticeData}) => {
                         title={
                         <>
                         <Image src={'https://res.cloudinary.com/depg2aab2/image/upload/v1680691424/vp/mauxi/information-button_gugkdi.png'} alt='' height={35} width={35} />
-                          <span className='abt-card-head-title text-white'>  Sarpanch message to the public</span>
+                          <span className='abt-card-head-title text-white ps-3'>  Sarpanch message to the public</span>
                         </>}>
                             <p>Greetings to all members of the community,</p>
 

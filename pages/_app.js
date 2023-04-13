@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }) {
                         <meta name="author" content="Kamsoft Technology, Goa" />
                         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
-                        <meta name="title" content="Village Panchayat Dongurli" />
+                        <meta name="title" content="Village Panchayat Mauxi" />
                         <meta name="description" content="Village Panchayat Mauxi,Government Of Goa"/>
                         
                         <meta name="robots" content="index, follow" />

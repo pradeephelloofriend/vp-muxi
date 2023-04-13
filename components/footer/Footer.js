@@ -31,6 +31,9 @@ import {selectFootData} from '../../redux/footer/footSelector';
                             <a href="#">Disclaimer</a>
                             <a href="#">Terms and Conditions</a>
                             <a href="#">Feedback</a>
+
+
+                            <a href="contact-us">Contact Us</a> {/*changes by tushar */}
                         </nav>
                     </div>
                      <hr className="mt-0 mb-2" />
