@@ -5541,7 +5541,7 @@ button.close {
 }
 
 /*about-us-tab*/
-.about-us-tab .ant-tabs-tab{
+.about-us-tab .ant-tabs-tab:not(){
   background: #ffffff;
   padding: 8px 70px 8px 9px ;
 }
@@ -5561,10 +5561,10 @@ button.close {
 .about-us-tab .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
   color: #fff;
 }
-.about-us-tab .ant-tabs-tab-btn{
+.about-us-tab .ant-tabs-tab-btn:not(){
   color: #97b946;
 }
-.about-us-tab .ant-tabs-tab-btn:after {
+.about-us-tab .ant-tabs-tab-btn:after:not() {
   content: "\f105";
   font-family: FontAwesome;
   
@@ -5581,6 +5581,12 @@ button.close {
 }
 .about-us-tab .ant-tabs-left > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane{
 padding-bottom: 24px;
+}
+.g-cat-tab .ant-tabs-tab + .ant-tabs-tab {
+  margin: 0 0 0 20px;
+}
+.g-cat-tab .ant-tabs-tab{
+padding: 6px;
 }
 .caption1 h1:before {
   content: '';
@@ -5874,3 +5880,17 @@ font-size: 20px;
 .scheme-slider .ant-btn:hover, .scheme-slider .ant-btn:focus{
   color: #ffffff;
 }
+.g-box-content .img-box{
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+}
+.img-tag-box {
+  position: relative;
+  bottom: 35px;
+  left: 9px;
+}
+
+

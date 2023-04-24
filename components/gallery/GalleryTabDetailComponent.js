@@ -1,59 +1,97 @@
 import React from 'react'
-import { Typography,Card,Tabs } from 'antd';
+import { Typography,Card,Tabs,Spin } from 'antd';
 import '../../node_modules/video-react/dist/video-react.css'; // import css
 import { Player } from 'video-react';
 import Image from  'next/image'
 const { TabPane } = Tabs;
+import Axios from 'axios';
+import { getGalleryByCat } from '../../lib/api';
 const GalleryTabDetailComponent = ({cDetailData}) => {
     //console.log('cDetailData',cDetailData)
-  return (
+    const [tabKey,setTabKey]=React.useState(cDetailData[0].termTaxonomyId.toString())
+    //console.log('tabKey',tabKey)
+    const[gData,setGdata]=React.useState([])
+    const [isLoading,setIsLoading]=React.useState(false);
+    React.useEffect(()=>{
+        //geting data according to category
+        setIsLoading(true)
+        let isApiSubscribed = true;
+        if(isApiSubscribed){
+            async function fetchData() {
+                const cData = await getGalleryByCat(Number(tabKey)) //applo client  
+                // 👇️ only update state if component is mounted
+                if (isApiSubscribed) {
+                  setGdata(cData[0].mediaGalleries.nodes)
+                  setIsLoading(false)
+                }
+              }
+              fetchData()
+        }
+    },[tabKey])
+    //console.log('gData',gData)
+    return (
     <div>
-        {cDetailData.map((g,idx)=>
-            <div key={idx} className='g-box'>
-                <h4>{g.node.title}</h4>
-                <div className='g-box-content'>
-                    
-                        {g.node.gallery.content.map((d,ix)=>
-                            <div key={ix} className='img-box'>
-                                
-                                <div className='row'>
-                                
-                                    {d.image.map((i,is)=>
-                                    <div key={is} className='col-md-4 mb-5'>
-                                        <Card
-                                            className='dev-card1'
-                                            hoverable
 
-                                            cover={
-                                                d.categoryName.name=='photo'?
-                                                <Image src={i.mediaItemUrl} alt='' height={361} width={518} />
-                                                :
-                                                
-                                                <Player
-                                                    playsInline
-                                                    //poster="/assets/poster.png"
-                                                    src={i.mediaItemUrl}
-                                                />
+          <div className=''>
+              <Tabs className='g-cat-tab' activeKey={tabKey} onTabClick={(key) => setTabKey(key)} tabPosition={'top'}>
+                 {cDetailData.map((g,gix)=>
+                 <>
+                 
+                 <TabPane  tab={g.name} key={g.termTaxonomyId}>
+                 <Spin spinning={isLoading}>
+                    {   
+                        gData.length>=1?gData.map((g,idx)=>
+                        <div key={idx} className='g-box'>
+                            <h4>{g.title}</h4>
+                            <div className='g-box-content'>
+                                
+                                    {g.gallery.content.map((d,ix)=>
+                                        <div key={ix} className='img-box'>
                                             
-                                        }
-                                        >
-                                            <div className='dev-slider-box'>
-                                            <span className="badge bg-white link-c-blue rounded-pill">{d.categoryName.name}</span>
-                                            </div>
-                                        </Card>
-                                    </div>
+                                            
+            
+                                                {d.image.map((i,is)=>
+                                                <div className='iv-content' >
+                                                    {d.categoryName.name=='photo'?
+                                                    <img  src={i.sourceUrl} alt='' />
+                                                            :
+                                                            
+                                                            <Player
+                                                                playsInline
+                                                                //poster="/assets/poster.png"
+                                                                src={i.sourceUrl}
+                                                            />
+                                                    }
+                                                    <div className='img-tag-box'>
+                                                        <span className="badge bg-white link-c-blue rounded-pill">{i.title}</span>
+                                                    </div>
+                                                </div>
+                                                
+                                                )}
+                                                
+                                            
+                                        </div>
+                                        
                                     )}
                                     
-                                </div>
+                                
                             </div>
-                            
-                        )}
-                        
+                        </div>
                     
-                </div>
-            </div>
-        
-        )}
+                    )
+                    :<p>No data Found</p>}
+                    </Spin>
+                 </TabPane>
+                 
+                 </>
+                 )}
+                  
+
+
+
+              </Tabs>
+          </div>
+        {/**/}
 
     </div>
   )
