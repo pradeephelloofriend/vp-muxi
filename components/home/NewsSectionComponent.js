@@ -17,7 +17,7 @@ const NewsSectionComponent = ({newsData,setTabKey,devData}) => {
                 query: { catCode: catCode, desc: desc,title:title,uri:uri,iscomplete:iscomplete }
             })
 }
-  //console.log('newsData',newsData)
+  //console.log('newsData',newsData) 
   return (
       <>
           <section className="wrapper bg-light-orange">

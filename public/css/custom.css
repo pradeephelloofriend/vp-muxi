@@ -5858,8 +5858,8 @@ border: 0px;
     border-radius: 50%;
 }
 .scheme-slider {
-  display: flex;
-    flex-wrap: wrap;
+  /* display: flex; */
+    /* flex-wrap: wrap; */
     gap: 25px;
 }
 .scheme-slider .anticon{
@@ -5891,6 +5891,9 @@ font-size: 20px;
   position: relative;
   bottom: 35px;
   left: 9px;
+}
+.badge-txt {
+  color: black;
 }
 
 

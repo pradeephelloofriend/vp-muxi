@@ -10,14 +10,38 @@ import SwiperCore, {
   Pagination
 } from 'swiper';
 import SliderBottomBarComponent from './SliderBottomBarComponent';
+import { getSliderHomeData } from '../../lib/api';
 
 const {Title,Text}=Typography
 SwiperCore.use([Pagination]);
 
+// const Banner = ({sliderData,noticeData}) => {
 const Banner = ({sliderData,noticeData}) => {
   console.log('sliderdata',sliderData)
+
+  const [slData,setSldata]=React.useState(null)
+   
+  React.useEffect(()=>{
+      //setLoading(true)
+      let isApiSubscribed = true;
+      async function fetchData() {
+          
+          const cData = await getSliderHomeData() //applo client   
+          // 👇️ only update state if component is mounted
+          if (isApiSubscribed) {
+            console.log('cData',cData)
+            setSldata(cData)
+          }
+        }
+        
+        fetchData()
+        return () => {
+          // cancel the subscription
+          isApiSubscribed = false;
+        };
+  },[])
   //const Demo= sliderData.content.map(i=>i)
-  //console.log('demo',Demo)
+  console.log('slData',slData)
     return (
       <>
        <section className="wrapper ">
@@ -41,16 +65,16 @@ const Banner = ({sliderData,noticeData}) => {
                 </div>
               </SwiperSlide>
           )*/}
-          {sliderData.map((v,idx)=>
-          <SwiperSlide key={idx}>
+          {slData !==null ? slData.map((i, index) =>
+          <SwiperSlide key={index}>
            <img
                   alt="s1"
                   
-                  src={v.image.url}
+                  src={i.image !== null ? i.image.sourceUrl: <></>}
                 />
           </SwiperSlide>
           
-          )}
+          ):<></>}
          
             </Swiper>
             <div className='slider-block mt-10'>

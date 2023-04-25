@@ -99,8 +99,10 @@ const Index = ({ homeData,msgData,setServiceAreaData,data,villageData,setSchemeA
     return (
         <>
             {/* <OtherLinks noticeData={noticeData}/> */}
-            <OtherLinks noticeData={noticeData} />
-            <Banner sliderData={slider} noticeData={noticeData} />
+            {/* <OtherLinks noticeData={noticeData} /> */}
+            <OtherLinks />
+            {/* <Banner sliderData={slider} noticeData={noticeData} /> */}
+            <Banner />
             {/* <BigMenuComponent/> */}
            
             {/*<AboutUsBlockComponent villageData={villageData} msgData={msgData}/>*/}
@@ -109,7 +111,7 @@ const Index = ({ homeData,msgData,setServiceAreaData,data,villageData,setSchemeA
             <OtherLinksComponent/> 
             <PopulationSectionComponent/>
             <FacilitesComponent/>
-            <Schemes schemesData={schemesData}/>
+            <Schemes />
             {/*<AddBlock stepData={stepData} />
             <Scheme schemeData={data1} />
             <EventsComponent eventdata={eventdata}/>
