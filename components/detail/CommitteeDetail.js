@@ -88,14 +88,12 @@ const CommitteeDetail = ({regCertData,cDetailData}) =>{
                   <TabPane tab="Application" key="app"> */}
                       <div className='page-content'>
                       {/* <div dangerouslySetInnerHTML={{ __html:cDetailData.title!==null?cDetailData.title:<></>}} /> */}
-                      <table>
+                      <table className='bio-mem'>
                         <thead>
-                          <tr>
+                          <tr >
                             <td className='fw-bolder fs-20'>Name</td>
                             <td className='text-center fw-bolder fs-20'>Designation</td>
-                            <td className='text-center fw-bolder fs-20'>Contact No.
-
-                            </td>
+                            <td className='text-center fw-bolder fs-20'>Contact No. </td>
                           </tr>
 
                         </thead>

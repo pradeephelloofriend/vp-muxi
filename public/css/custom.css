@@ -5612,6 +5612,7 @@ padding: 6px;
   font-size: 90%;
   line-height: 26px;
 }
+
 .pr-10{
   padding-right: 10%;
 }
@@ -5781,7 +5782,8 @@ background-size:cover;
 }*/
 .vil-card-block ul li{
   padding: 8px;
-  
+  font-weight: bold;
+
 
 }
 .vil-info .ant-card-body{
@@ -5792,28 +5794,35 @@ justify-content: flex-start;
 
 }
 .ol-hos .ant-card-body{
-  background-image: url('https://res.cloudinary.com/depg2aab2/image/upload/v1670497071/vp/dongrim/helth-mi_ddyyjw.jpg');
+  background-image: url('https://res.cloudinary.com/depg2aab2/image/upload/v1682584183/vp/mauxi/Health-Centre-Kopardembackgrnd-min_hhnb9n.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
 }
 .ol-tur .ant-card-body{
-  background-image: url('https://res.cloudinary.com/depg2aab2/image/upload/v1670498870/vp/dongrim/tor-min_x3svvf.jpg');
+  background-image: url('https://res.cloudinary.com/depg2aab2/image/upload/v1682590899/vp/mauxi/zarme_waterfall_cuj9ws.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
 }
 .ol-park .ant-card-body{
-  background-image: url('https://res.cloudinary.com/depg2aab2/image/upload/v1670518476/vp/dongrim/park-min_xaicdb.jpg');
+  background-image: url('https://res.cloudinary.com/depg2aab2/image/upload/v1682590898/vp/mauxi/Ground-of-Kopardem_vvvlqx.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.ol-office .ant-card-body{
+  background-image: url('https://res.cloudinary.com/depg2aab2/image/upload/v1682590898/vp/mauxi/New--Panchayat-Building_yjfdkz.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
 }
 .bg-img{
-  background-image: url('../img/bradem-header-min.jpg');
+  background-image: url('https://res.cloudinary.com/depg2aab2/image/upload/v1682590898/vp/mauxi/Ground-of-Kopardem_vvvlqx.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5896,4 +5905,23 @@ font-size: 20px;
   color: black;
 }
 
+.bio-mem
+{
+  width: 80%;
+  /* border: 2px solid #000; */
+  table-layout: fixed !important;
+  text-align: center;
+  background-color: #e0e6dd;
+}
 
+.bio-mem td {
+  width: 25% !important;;
+}
+.bio-mem tr td {
+  padding: 10px 0px 10px 0px;
+  border: 1px solid #010308;  
+}
+
+.bio-mem thead {
+  background-color: rgb(94, 218, 180);
+}

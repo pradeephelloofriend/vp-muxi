@@ -45,6 +45,7 @@ const ProfileComponent = () => {
               <li className='pf-bg-orange'>Assembly Constituency<p>Poriem</p></li>
               <li className='pf-bg-blue'>Parliament Constituency<p>North Goa</p></li>
               <li className='pf-bg-merun'>Nearest Town <p>MAUXI</p></li>
+            
             </ul>  
             </div>
           </div>

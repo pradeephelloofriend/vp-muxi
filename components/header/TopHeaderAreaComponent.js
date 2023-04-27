@@ -21,19 +21,19 @@ const TopHeaderAreaComponent = ({setRegStatus,cUser}) => {
                     <div className="row align-items-center">
                         <div className="col-lg-4">
                             <div className="header-content-left">
-                                {/*<a>Welcome To Dongruli Panchayat!</a>*/}
+                                <a class="text-light">Welcome To  Village Panchayat Mauxi !</a>
                             </div>
                         </div>
                         <div className="col-lg-8">
                             <div className="header-content-right">
                                 
-                                    <a href="tel:+822456974" className="me-xl-8 text-white">
+                                    <a href="tel:+822374279" className="me-xl-8 text-white">
                                     <i className="fa fa-mobile me-xl-1"></i>
-                                        Call Us For Inquiry: +91 86688 67032
+                                        Call Us For Inquiry:  0832 2374279
                                     </a>
                                     <a href="mailto:hello@surety.com" className="me-xl-8 text-white">
                                     <i className="fa fa-envelope-o me-xl-1"></i>
-                                        Email: contactus@vpdongurlithane.com
+                                        Email:vpmauxisattarigoa@gmail.com
                                     </a>
                                     {cUser!==null?
                                     <a href="#" onClick={()=>handleShow()} className="text-red">

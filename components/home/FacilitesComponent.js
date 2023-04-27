@@ -1,5 +1,5 @@
 import React from 'react'
-import {Tabs,Card } from 'antd';
+import { Tabs, Card } from 'antd';
 const { TabPane } = Tabs;
 const { Meta } = Card;
 import Image from 'next/image'
@@ -11,70 +11,69 @@ import sports from '../../public/img/about/ground.jpg'
 
 import Com from '../../public/img/about/nagoa.jpg'
 const FacilitesComponent = () => {
-    const[tabLayout,setTablLayout]=React.useState(null)
-    const[imgWidth,setImgWidth]=React.useState(270)
+    const [tabLayout, setTablLayout] = React.useState(null)
+    const [imgWidth, setImgWidth] = React.useState(270)
     React.useEffect(() => {
         function handleResize() {
-          if (window.matchMedia("(min-width: 1400px)").matches) {
-            setTablLayout("left")
-            setImgWidth(350)
-            // Viewport is less or equal to 700 pixels wide
-            //console.log("min-width: 1400px")
-          } else if(window.matchMedia("(min-width: 1200px)").matches) {
-            setTablLayout("left")
-            setImgWidth(350)
-            // Viewport is greater than 700 pixels wide
-            //console.log("min-width: 1200px")
-          }else if(window.matchMedia("(min-width: 992px)").matches){
-            setTablLayout("left")
-            setImgWidth(350)
-            //console.log("min-width: 1200px")
-          }else if(window.matchMedia("(min-width: 768px)").matches){
-            setTablLayout("top")
-            setImgWidth(360)
-            //console.log("min-width: 768px")
-          }else if(window.matchMedia("(min-width: 576px)").matches){
-            setTablLayout("top")
-            setImgWidth(360)
-            //console.log("min-width: 768px")
-          }else{
-            setTablLayout("top")
-            setImgWidth(380)
-            //console.log("min-width: 576px")
-          }
-        
+            if (window.matchMedia("(min-width: 1400px)").matches) {
+                setTablLayout("left")
+                setImgWidth(350)
+                // Viewport is less or equal to 700 pixels wide
+                //console.log("min-width: 1400px")
+            } else if (window.matchMedia("(min-width: 1200px)").matches) {
+                setTablLayout("left")
+                setImgWidth(350)
+                // Viewport is greater than 700 pixels wide
+                //console.log("min-width: 1200px")
+            } else if (window.matchMedia("(min-width: 992px)").matches) {
+                setTablLayout("left")
+                setImgWidth(350)
+                //console.log("min-width: 1200px")
+            } else if (window.matchMedia("(min-width: 768px)").matches) {
+                setTablLayout("top")
+                setImgWidth(360)
+                //console.log("min-width: 768px")
+            } else if (window.matchMedia("(min-width: 576px)").matches) {
+                setTablLayout("top")
+                setImgWidth(360)
+                //console.log("min-width: 768px")
+            } else {
+                setTablLayout("top")
+                setImgWidth(380)
+                //console.log("min-width: 576px")
+            }
+
         }
         handleResize()
         window.addEventListener('resize', handleResize)
-        
-      })
-  return (
-      <>
-          <section className="wrapper bg-light">
-              <div className="container py-10 py-md-10 pb-md-10">
-                  <div className="row">
-                      <div className="col-md-12 col-lg-10 col-xl-10 mx-auto text-center">
-                          <h4 className="display-6 mb-0 link-c-blue">Village Infrastructure</h4>
-                          <p className="lead mb-5 px-md-16 px-lg-3">Developing, Strengthening the capacities and provide essential services. Some of them are.</p>
-                      </div>
 
-                  </div>
-                  <div className="row">
-                      <div className="col-md-12 mx-auto">
-                          <div className='facility-tab'>
-                              <Tabs tabPosition={tabLayout}>
-                                  <TabPane tab="Biodiversity" key="3">
-                                      <div className='row'>
+    })
+    return (
+        <>
+            <section className="wrapper bg-light">
+                <div className="container py-10 py-md-10 pb-md-10">
+                    <div className="row">
+                        <div className="col-md-12 col-lg-10 col-xl-10 mx-auto text-center">
+                            <h4 className="display-6 mb-0 link-c-blue">Village Infrastructure</h4>
+                            <p className="lead mb-5 px-md-16 px-lg-3">Developing, Strengthening the capacities and provide essential services to promote vibrant culture and tradition of community. Some of them are.</p>
+                        </div>
+
+                    </div>
+                    <div className="row">
+                        <div className="col-md-12 mx-auto">
+                            <div className='facility-tab'>
+                                <Tabs tabPosition={tabLayout}>
+                                    <TabPane tab="Biodiversity" key="3">
+                                        <div className='row'>
                                             <div className='col-md-4 col-12'>
                                                 <Card
                                                     className='faci-card'
                                                     hoverable
                                                     style={{ width: imgWidth }}
-                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671514627/vp/dongrim/facility/flora_onxab0.jpg'} width={350} height={197} />}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682593002/vp/mauxi/Jackfruit-min_alkz23.jpg'} width={350} height={197} />}
                                                 >
-                                                    <h4 className='link-c-blue mb-0 text-center'> Goa Flora</h4>
-                                                    <p className='mb-0'>Biodiversity of Goa flora and fauna
-Much deciduous vegetation, including teak, sal, cashew and mango trees, is present. Fruits include jackfruits, mangos, pineapples and blackberries.</p>
+                                                    <h4 className='link-c-blue mb-0 text-justify'> Goa Flora</h4>
+                                                    <p className='mb-0'>The biodiversity of Goa's flora and fauna is truly remarkable. The region boasts a plethora of deciduous vegetation, including teak, sal, cashew, and mango trees. Additionally, the area is home to a variety of delicious fruits, such as jackfruits, mangos, pineapples, and blackberries. It's truly a sight to behold!</p>
                                                 </Card>
                                             </div>
                                             <div className='col-md-4 col-12'>
@@ -82,10 +81,10 @@ Much deciduous vegetation, including teak, sal, cashew and mango trees, is prese
                                                     className='faci-card'
                                                     hoverable
                                                     style={{ width: imgWidth }}
-                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671514627/vp/dongrim/facility/fauna_lrnoqm.jpg'} width={350} height={197} />}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682593049/vp/mauxi/Gaur-min_gai3wp.jpg'} width={350} height={197} />}
                                                 >
-                                                    <h4 className='link-c-blue mb-0 text-center'> Goa Fauna</h4>
-                                                    <p className='mb-0'>Foxes, wild boars and migratory birds are found in the jungles of Goa. The avifauna includes kingfishers, mynas and parrots </p>
+                                                    <h4 className='link-c-blue mb-0 text-justify'> Goa Fauna</h4>
+                                                    <p className='mb-0'>Foxes, wild boars, Gaurs, cheetal or spotted axis deer, sambar, barking deer, striped hyena, jackal, wild dog, mongoose, Leopard, sloth Bear, Indian porcupine, pangolin, slender loris and migratory birds are found in the jungles of Goa. The avifauna includes kingfishers, mynas and parrots </p>
                                                 </Card>
                                             </div>
                                             <div className='col-md-4 col-12'>
@@ -93,10 +92,10 @@ Much deciduous vegetation, including teak, sal, cashew and mango trees, is prese
                                                     className='faci-card'
                                                     hoverable
                                                     style={{ width: imgWidth }}
-                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671514626/vp/dongrim/facility/wildlife_dyacsq.jpg'} width={350} height={197} />}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682593139/vp/mauxi/leopard-min_oiq3yp.jpg'} width={350} height={197} />}
                                                 >
-                                                    <h4 className='link-c-blue mb-0 text-center'> Mhadei  Wildlife Sanctuary</h4>
-                                                    <p className='mb-0'>The Mhadei Wildlife Sanctuary is a 208.48km protected area in the Indian state of Goa in the Western Ghats of South India. It is located in the North Goa District, Sattari taluka near the town of Valpoi.  </p>
+                                                    <h4 className='link-c-blue mb-0 text-justify'> Mhadei  Wildlife Sanctuary</h4>
+                                                    <p className='mb-0'>The Mhadei Wildlife Sanctuary is a natural wonder that offers a unique opportunity to experience the beauty of India's wildlife. Its located in the Western Ghats, coupled with its rich biodiversity, makes it a must-visit destination for anyone seeking an unforgettable adventure.  </p>
                                                 </Card>
                                             </div>
                                             {/* <div className='col-md-4 pt-4 col-12'>
@@ -111,11 +110,11 @@ Much deciduous vegetation, including teak, sal, cashew and mango trees, is prese
 I appeal to all people to utilize services optimally. </p>
                                                 </Card>
                                             </div> */}
-                                      </div>
-                                  </TabPane>
+                                        </div>
+                                    </TabPane>
 
-                                  <TabPane tab="Conservation Programme" key="4">
-                                  <div className='row'>
+                                    <TabPane tab="Conservation Programme" key="4">
+                                        <div className='row'>
                                             <div className='col-md-4 col-12 '>
                                                 <Card
                                                     className='faci-card'
@@ -193,11 +192,11 @@ I appeal to all people to utilize services optimally. </p>
                                                     <p className='mb-0'>well equipped gym with Proper Equipments so the people of nagoa take up Exercise as prime factor.</p>
                                                 </Card>
                                             </div> */}
-                                            </div>
-                                  </TabPane>
+                                        </div>
+                                    </TabPane>
 
-                                  <TabPane tab="Education" key="5">
-                                      <div className='row'>
+                                    <TabPane tab="Education" key="5">
+                                        <div className='row'>
                                             <div className='col-md-4 col-12'>
                                                 <Card
                                                     className='faci-card'
@@ -243,13 +242,13 @@ I appeal to all people to utilize services optimally. </p>
 I appeal to all people to utilize services optimally. </p>
                                                 </Card>
                                             </div> */}
-                                      </div>
-                                  </TabPane>
+                                        </div>
+                                    </TabPane>
 
 
-                                  <TabPane tab="Community Services" key="1">
-                                  <div className='row'>
-                                            
+                                    <TabPane tab="Community Services" key="1">
+                                        <div className='row'>
+
                                             <div className='col-md-4 col-12'>
                                                 <Card
                                                     className='faci-card'
@@ -362,14 +361,14 @@ I appeal to all people to utilize services optimally.
                                                 >
                                                     <h4 className='link-c-blue mb-0 text-center'>Well</h4>
                                                     <p className='mb-0'>Well has been constructed to provide clean and Pure Drinking water to the people of Nagoa
-</p>
+                                                    </p>
                                                 </Card>
                                             </div>
-                                            </div>
-                                  </TabPane>
-                                  <TabPane tab="Waste Management" key="2">
-                                    <div className='row'>
-                                  <div className='col-md-4 pt-4 col-12'>
+                                        </div>
+                                    </TabPane>
+                                    <TabPane tab="Waste Management" key="2">
+                                        <div className='row'>
+                                            <div className='col-md-4 pt-4 col-12'>
                                                 <Card
                                                     className='faci-card'
                                                     hoverable
@@ -391,17 +390,17 @@ I appeal to all people to utilize services optimally.
                                                     <p className='mb-0'>A biogas plant is facilited to people of Nagoa that treats farm wastes or house wastes Material. This will produce Bio-Gas using anaerobic digesters.</p>
                                                 </Card>
                                             </div> */}
-                                            </div>
-                                  </TabPane>
-                                  
-                              </Tabs>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </section>
-      </>
-  )
+                                        </div>
+                                    </TabPane>
+
+                                </Tabs>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
+    )
 }
 
 export default FacilitesComponent

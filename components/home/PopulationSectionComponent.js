@@ -13,7 +13,7 @@ const PopulationSectionComponent = () => {
                   <div className="row">
                       <div className="col-lg-6 col-xl-6 mx-auto">
                           {/*<h2 className="display-4 mb-3 text-center">Join Our Community</h2>*/}
-                          <p className="mb-0 px-md-16 px-lg-3 link-c-blue no-padding">"My idea of village SWARAJ is that is a complete republic, independent of its neighbors for its own vital wants, and yet interdependent for many others which dependence is a necessity."</p>
+                          <p className="mb-0 px-md-16 px-lg-3 text-black no-padding">"The voice of the people may be said to be God's voice, the voice of the Panchayat.When the panchayat raj is established, public opinion will do what violence can never do"</p>
                           <p className='mb-0'>--Mahatma Gandhi</p>
                       </div>
                       

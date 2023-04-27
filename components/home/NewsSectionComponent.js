@@ -51,13 +51,13 @@ const NewsSectionComponent = ({newsData,setTabKey,devData}) => {
                       </div>
                       <div className="col-md-12 col-xl-7">
                         <div className='dev-card'>
-                        <Card className='abt-card dev0-card bg-c-blue' 
+                        <Card className='abt-card dev0-card bg-c-blue ' 
                         title={
                         <>
-                        <Image src={'https://res.cloudinary.com/depg2aab2/image/upload/v1665070682/vp/nagoa/social_gbnief.png'} alt='' height={35} width={35} />
-                          <span className='abt-card-head-title text-white'> Recent development works</span>
+                        <Image src={'https://res.cloudinary.com/depg2aab2/image/upload/v1665070682/vp/nagoa/social_gbnief.png '} alt='' height={35} width={35} />
+                          <span className='abt-card-head-title text-white ps-3 '> Recent development works</span>
                         </>}>
-                            {/*<RecentDevelopmentComponent devData={devData}/>*/}
+                            <RecentDevelopmentComponent devData={devData}/>
                           </Card>
                         </div>
                           

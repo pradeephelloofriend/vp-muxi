@@ -89,16 +89,16 @@ const Banner = ({sliderData,noticeData}) => {
                 <div className='row'>
                   <div className='col-6'>
                     <h4>May I Help You</h4>
-                    <a href="tel:+822374279" class="me-xl-8 text-c-blue"><i class="fa fa-mobile me-xl-1"></i>Call Us For Inquiry: +91 7030955441</a><br/>
-                    <a href="mailto:hello@surety.com" class="me-xl-8 text-c-blue"><i class="fa fa-envelope-o me-xl-1"></i>Email: vpmauxi@gmail.com</a>
+                    <a href="tel:+822374279" class="me-xl-8 text-c-blue"><i class="fa fa-mobile me-xl-1"></i>Call Us For Inquiry:  0832-2374279</a><br/>
+                    <a href="mailto:hello@surety.com" class="me-xl-8 text-c-blue"><i class="fa fa-envelope-o me-xl-1"></i>Email:vpmauxisattarigoa@gmail.com</a>
                   </div>
                   <div className='col-6'>
                   <h4>Important Links</h4>
                   <ul class="icon-list bullet-theme">
-                    <li><span><i class="uil uil-arrow-right"></i></span><span>Aenean eu leo quam pellentesque.</span></li>
-                    <li><span><i class="uil uil-arrow-right"></i></span><span>Nullam quis risus eget urna mollis.</span></li>
-                    <li><span><i class="uil uil-arrow-right"></i></span><span>Donec id elit non mi porta gravida.</span></li>
-                    <li><span><i class="uil uil-arrow-right"></i></span><span>Fusce dapibus, tellus ac cursus.</span></li>
+                    <li><span><i class="uil uil-arrow-right"></i></span><span>Government of Goa</span></li>
+                    <li><span><i class="uil uil-arrow-right"></i></span><span>Directorate Of Panchayats</span></li>
+                    <li><span><i class="uil uil-arrow-right"></i></span><span>Contact Us</span></li>
+                    <li><span><i class="uil uil-arrow-right"></i></span><span>Gallery</span></li>
                   </ul>
                   </div>
                 </div>
