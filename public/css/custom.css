@@ -5925,3 +5925,9 @@ font-size: 20px;
 .bio-mem thead {
   background-color: rgb(94, 218, 180);
 }
+
+.text-c-blue li
+{
+  list-style-type: square;
+  
+}

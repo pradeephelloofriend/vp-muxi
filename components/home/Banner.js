@@ -81,7 +81,7 @@ const Banner = ({sliderData,noticeData}) => {
               <div class="caption1"><h1>Village Panchayat Mauxi</h1></div>
               <div className='slider-content'>
                 <p>Mauxi village is located in Satari taluka of North Goa district in Goa, India. It is situated 3km away from sub-district headquarter Valpoi (tehsildar office) and 62km away from district headquarter Panaji. As per 2009 stats, Mauxi is the gram panchayat of Mauzi village.</p>
-                <p>TThe total geographical area of village is 629.1 hectares. Mauxi has a total population of 1,375 peoples, out of which male population is 709 while female population is 666. Literacy rate of mauxi village is 73.75% out of which 81.95% males and 65.02% females are literate. There are about 295 houses in mauxi village. Pincode of mauxi village locality is 403506.</p>
+                <p>The total geographical area of village is 629.1 hectares. Mauxi has a total population of 1,375 peoples, out of which male population is 709 while female population is 666. Literacy rate of mauxi village is 73.75% out of which 81.95% males and 65.02% females are literate. There are about 295 houses in mauxi village. Pincode of mauxi village locality is 403506.</p>
                   <p>When it comes to administration, Mauxi village is administrated by a sarpanch who is elected representative of the village by the local elections. As per 2019 stats, Mauxi village comes under Poriem assembly constituency & North Goa parliamentary constituency. Satari is nearest town to mauzi village for all major economic activities.</p>
                   <p>The primary occupation of the locals in this area is agriculture. The main crop cultivated is paddy, while other crops such as bhat, nachani, kaji, keli, mirsang, supari, and coconut are also grown. The land is ploughed using draught cattle, which is a traditional method that has been used for generations.In addition to the main crops, there are also minor crops such as chillies, which make up about 10% of the total crops grown. Other vegetables such as red amaranth, radish, turnip, and ladies finger are also cultivated.</p>
               <Divider/>
@@ -95,10 +95,11 @@ const Banner = ({sliderData,noticeData}) => {
                   <div className='col-6'>
                   <h4>Important Links</h4>
                   <ul class="icon-list bullet-theme">
-                    <li><span><i class="uil uil-arrow-right"></i></span><span>Government of Goa</span></li>
-                    <li><span><i class="uil uil-arrow-right"></i></span><span>Directorate Of Panchayats</span></li>
-                    <li><span><i class="uil uil-arrow-right"></i></span><span>Contact Us</span></li>
-                    <li><span><i class="uil uil-arrow-right"></i></span><span>Gallery</span></li>
+                    <li><span><i class="uil uil-arrow-right"></i></span><span><a href="https://goaonline.gov.in" target=" ">Government of Goa</a></span></li>
+                    <li><span><i class="uil uil-arrow-right"></i></span><span><a href="https://www.goa.gov.in/department/panchayats"target=" ">Directorate of Panchayat</a></span></li>
+                
+                    <li><span><i class="uil uil-arrow-right"></i></span><span><a href="contact-us"target=" ">Contact Us</a></span></li>
+
                   </ul>
                   </div>
                 </div>

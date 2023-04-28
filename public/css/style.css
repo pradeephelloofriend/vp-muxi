@@ -9588,7 +9588,7 @@ textarea.form-control.is-invalid {
 }
 
 .pt-4 {
-    padding-top: 1rem !important
+    padding-top: 0rem !important
 }
 
 .pt-5 {

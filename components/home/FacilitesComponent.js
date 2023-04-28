@@ -120,10 +120,10 @@ I appeal to all people to utilize services optimally. </p>
                                                     className='faci-card'
                                                     hoverable
                                                     style={{ width: imgWidth }}
-                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671514626/vp/dongrim/facility/tiger_conservation_lioaat.jpg'} width={350} height={197} />}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682678547/vp/mauxi/bear_pcbweq.jpg'} width={350} height={197} />}
                                                 >
-                                                    <h4 className='link-c-blue mb-0 text-center'> Tiger Conservation</h4>
-                                                    <p className='mb-0'>The Bengal tiger is a population of the Panthera tigris tigris subspecies. It ranks among the biggest wild cats alive today. It is considered to belong to the world's charismatic megafauna</p>
+                                                    <h4 className='link-c-blue mb-0 text-center'>Wildlife Conservation</h4>
+                                                    <p className='mb-0'>Conservation of the rare and exotic fauna of the forest, sloth Bear, tigers, leopards, sambar, spotted deers, indian civet are some of the most popular species.</p>
                                                 </Card>
                                             </div>
                                             <div className='col-md-4 col-12'>
@@ -131,9 +131,9 @@ I appeal to all people to utilize services optimally. </p>
                                                     className='faci-card'
                                                     hoverable
                                                     style={{ width: imgWidth }}
-                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671514625/vp/dongrim/facility/lakecleaning_kilqab.jpg'} width={350} height={197} />}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682678548/vp/mauxi/waterbody_wrlidp.jpg'} width={350} height={197} />}
                                                 >
-                                                    <h4 className='link-c-blue mb-0 text-center'>Desilting and cleaning of spring</h4>
+                                                    <h4 className='link-c-blue mb-0 text-center'>Cleaning of waterfall and springs</h4>
                                                     <p className='mb-0'>Activities such as cleaning, desilting and restoring of water bodies were carried out.</p>
                                                 </Card>
                                             </div>
@@ -142,10 +142,12 @@ I appeal to all people to utilize services optimally. </p>
                                                     className='faci-card'
                                                     hoverable
                                                     style={{ width: imgWidth }}
-                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671514625/vp/dongrim/facility/govan_fjhcqx.jpg'} width={350} height={197} />}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682678547/vp/mauxi/govan_mi7myk.jpg'} width={350} height={197} />}
                                                 >
                                                     <h4 className='link-c-blue mb-0 text-center'>Govan</h4>
-                                                    <p className='mb-0'>GoVan” is a brand developed by Goa State Biodiversity Board (GSBB) under its project with the aim of “Conservation of Biodiversity through livelihood interventions”</p>
+                                                    <p className='mb-0'>GoVan” is a brand developed by Goa State Biodiversity Board (GSBB) under its project with the 
+                                                    aim of “Conservation of Biodiversity through livelihood interventions”
+                                                 promoting traditional and  sustainable practices to protect the environment to promote sustainable development.</p>
                                                 </Card>
                                             </div>
                                             {/* <div className='col-md-4 pt-4 col-12'>
@@ -204,8 +206,8 @@ I appeal to all people to utilize services optimally. </p>
                                                     style={{ width: imgWidth }}
                                                     cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671779413/vp/dongrim/facility/faclity3_wvv71n.jpg'} width={350} height={197} />}
                                                 >
-                                                    <h4 className='link-c-blue mb-0 text-center'>Govt primary school Golali</h4>
-                                                    <p className='mb-0'>It gives us immense pleasure providing facilities of School for the Childrens of Golali. I appeal to all people to utilize services optimally.</p>
+                                                    <h4 className='link-c-blue mb-0 text-center'>Govt. Primary School Mauxi</h4>
+                                                    <p className='mb-0'>Provides education to children from the surrounding villages and is committed to providing quality education to all students. The school has a team of dedicated teachers who work tirelessly to ensure that every child receives the best possible education.</p>
                                                 </Card>
                                             </div>
                                             <div className='col-md-4 col-12'>
@@ -213,10 +215,10 @@ I appeal to all people to utilize services optimally. </p>
                                                     className='faci-card'
                                                     hoverable
                                                     style={{ width: imgWidth }}
-                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671779415/vp/dongrim/facility/facility1_hgwotz.jpg'} width={350} height={197} />}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682676897/vp/mauxi/mauxi-school-min_jmv5lr.jpg'} width={350} height={197} />}
                                                 >
-                                                    <h4 className='link-c-blue mb-0 text-center'> Govt primary school Naneli</h4>
-                                                    <p className='mb-0'>It gives us immense pleasure providing facilities of School for the Childrens of Naneli. I appeal to all people to utilize services optimally. </p>
+                                                    <h4 className='link-c-blue mb-0 text-center'>Govt. Primary School At Nagvem Village</h4>
+                                                    <p className='mb-0'>It gives us immense pleasure providing facilities of School for the Childrens of Mauxi. I appeal to all people to utilize services optimally. </p>
                                                 </Card>
                                             </div>
                                             <div className='col-md-4 col-12'>
@@ -224,10 +226,10 @@ I appeal to all people to utilize services optimally. </p>
                                                     className='faci-card'
                                                     hoverable
                                                     style={{ width: imgWidth }}
-                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671779412/vp/dongrim/facility/facility4_qyieb2.jpg'} width={350} height={197} />}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682676896/vp/mauxi/dabem-school-min_rnjyf8.jpg'} width={350} height={197} />}
                                                 >
-                                                    <h4 className='link-c-blue mb-0 text-center'> govt primary sachool charwane</h4>
-                                                    <p className='mb-0'>It gives us immense pleasure providing facilities of School for the Childrens of charwane. I appeal to all people to utilize services optimally. </p>
+                                                    <h4 className='link-c-blue mb-0 text-center'>Govt. High School in Dabem Village</h4>
+                                                    <p className='mb-0'>Committed to provide a top-notch education to all students inorder to achieve their goals and succeed in life. </p>
                                                 </Card>
                                             </div>
                                             {/* <div className='col-md-4 pt-4 col-12'>
@@ -254,10 +256,10 @@ I appeal to all people to utilize services optimally. </p>
                                                     className='faci-card'
                                                     hoverable
                                                     style={{ width: imgWidth }}
-                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671191824/vp/dongrim/hivere_khurd_ny6xks.jpg'} width={350} height={197} />}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682675192/vp/mauxi/mahadev-min_dpwizv.jpg'} width={350} height={197} />}
                                                 >
-                                                    <h4 className='link-c-blue mb-0 text-center'>Temple at Hivere Khurd</h4>
-                                                    <p className='mb-0'>We want people of Nagoa to help hear God and develop an intimate Love Relationship with God. </p>
+                                                    <h4 className='link-c-blue mb-0 text-center'> Mahadev Temple Of Mauxi</h4>
+                                                    <p className='mb-0'>We want people of Mauxi to help hear God and develop an intimate Love Relationship with God. </p>
                                                 </Card>
                                             </div>
                                             {/* <div className='col-md-4 col-12'>
@@ -357,10 +359,22 @@ I appeal to all people to utilize services optimally.
                                                     className='faci-card'
                                                     hoverable
                                                     style={{ width: imgWidth }}
-                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671191824/vp/dongrim/well_znrdcg.jpg'} width={350} height={197} />}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682675193/vp/mauxi/tali-min_bb9hfe.jpg'} width={350} height={197} />}
                                                 >
-                                                    <h4 className='link-c-blue mb-0 text-center'>Well</h4>
-                                                    <p className='mb-0'>Well has been constructed to provide clean and Pure Drinking water to the people of Nagoa
+                                                    <h4 className='link-c-blue mb-0 text-center'>Tali Of Zarme Village </h4>
+                                                    <p className='mb-0'>Constructed to provide clean and Pure Drinking water to the people of Zarme
+                                                    </p>
+                                                </Card>
+                                            </div>
+                                            <div className='col-md-4 pt-4 col-12'>
+                                                <Card
+                                                    className='faci-card'
+                                                    hoverable
+                                                    style={{ width: imgWidth }}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682675192/vp/mauxi/toilet-min_kfolmm.jpg'} width={350} height={197} />}
+                                                >
+                                                    <h4 className='link-c-blue mb-0 text-center'>DOP Community Toilet </h4>
+                                                    <p className='mb-0'> DOP Community toilets helps to promote hygiene, sanitation, inclusivity and equity within a community.
                                                     </p>
                                                 </Card>
                                             </div>
@@ -373,12 +387,42 @@ I appeal to all people to utilize services optimally.
                                                     className='faci-card'
                                                     hoverable
                                                     style={{ width: imgWidth }}
-                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1671191817/vp/dongrim/9cf70a07-e862-44f5-b25f-ecdee4083f7e_tvqliz.png'} width={350} height={197} />}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682669907/vp/mauxi/bins_3_cqhnxg.jpg'} width={350} height={197} />}
                                                 >
-                                                    <h4 className='link-c-blue mb-0'>Waste Management</h4>
-                                                    <p className='mb-0'>Village Panchayat Dongurli-Thane has provided Waste Collection Vehicle to collect waste from different villages from the panchayat</p>
+                                                    <h4 className='link-c-blue mb-0'>Waste Disposal</h4>
+                                                    <p className='mb-0'>The Village Panchayat of Mauxi has recently acquired a Waste Collection Vehicle to efficiently gather waste from various villages within the panchayat. This initiative aims to promote cleanliness and hygiene in the area, while also reducing the negative impact of waste on the environment. </p>
                                                 </Card>
                                             </div>
+
+                                            <div className='col-md-4 pt-4 col-12'>
+                                                <Card
+                                                    className='faci-card'
+                                                    hoverable
+                                                    style={{ width: imgWidth }}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682669906/vp/mauxi/door-door_collection_o7rdcs.jpg'} width={350} height={197} />}
+                                                >
+                                                    <h4 className='link-c-blue mb-0'>Door to Door Garbage collection</h4>
+                                                    <p className='mb-0'>Village Panchayat Mauxi- regular collection of waste from individual households from different villages of the panchayat to ensure that waste is disposed of in a safe and environmentally friendly manner.</p>
+                                                </Card>
+                                            </div>
+
+                                            <div className='col-md-4 pt-4 col-12'>
+                                                <Card
+                                                    className='faci-card'
+                                                    hoverable
+                                                    style={{ width: imgWidth }}
+                                                    cover={<Image alt="example" src={'https://res.cloudinary.com/depg2aab2/image/upload/v1682669906/vp/mauxi/bins_1_wwqayh.jpg'} width={350} height={197} />}
+                                                >
+                                                    <h4 className='link-c-blue mb-0'>Waste Segregation </h4>
+                                                    <p className='mb-0'>Village Panchayat Mauxi  Collect garbage into dry and wet waste from different villages of the panchayat</p>
+                                                </Card>
+                                            </div>
+
+
+
+
+
+
                                             {/* <div className='col-md-4 pt-4 col-12'>
                                                 <Card
                                                     className='faci-card'

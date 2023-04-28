@@ -60,7 +60,7 @@ const OtherLinksComponent = () => {
                     >
                         <div className='ol-box'>
                             <ul className='text-white'>
-                                <li>Block Develpoment Officer (BDO), Valpoi</li>
+                                <li>BDO, Valpoi</li>
                                 <li>Govt. Cattle Breeding Farm</li>
                                 <li>GOA DAIRY MILK & MILK PRODUCTS</li>
                                 <li>Zonal Agriculture office; Bicholim</li>
