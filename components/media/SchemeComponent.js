@@ -71,7 +71,8 @@ const SchemeComponent = () => {
     <>
       {sData !== null ?
         <div className='page-content'>
-          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+          <p>The Goa government has implemented various schemes to promote the welfare and development of its citizens. These initiatives aim to address the diverse needs of 
+                                the people, including healthcare, education, employment, and social security.</p>
           <div className='scheme-block'>
 
             <Table bordered columns={columns} dataSource={sData} />

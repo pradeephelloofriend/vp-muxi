@@ -97,7 +97,7 @@ const Banner = ({sliderData,noticeData}) => {
                   <ul class="icon-list bullet-theme">
                     <li><span><i class="uil uil-arrow-right"></i></span><span><a href="https://goaonline.gov.in" target=" ">Government of Goa</a></span></li>
                     <li><span><i class="uil uil-arrow-right"></i></span><span><a href="https://www.goa.gov.in/department/panchayats"target=" ">Directorate of Panchayat</a></span></li>
-                
+                    <li><span><i class="uil uil-arrow-right"></i></span><span><a href="gallery/photos-video?catCode=photos-video&desc=Photo’s+and+Video&title=Gallery&uri=%2Fphotos-and-video%2F&iscomplete=Yes"target=" ">Gallery</a></span></li>
                     <li><span><i class="uil uil-arrow-right"></i></span><span><a href="contact-us"target=" ">Contact Us</a></span></li>
 
                   </ul>

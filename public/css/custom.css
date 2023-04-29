@@ -5915,7 +5915,7 @@ font-size: 20px;
 }
 
 .bio-mem td {
-  width: 25% !important;;
+  width: 25% !important;
 }
 .bio-mem tr td {
   padding: 10px 0px 10px 0px;
@@ -5930,4 +5930,23 @@ font-size: 20px;
 {
   list-style-type: square;
   
+}
+.abt-card-head-title-ti
+{
+padding-left: 20px;
+padding-top: 4px!important;
+padding-bottom: 4px!important;
+}
+
+.ant-table-cell
+{
+  border: 2px solid #010308; 
+  padding: 10px 0px 10px 0px; 
+  
+}
+.ant-table-container tr td
+{
+  table-layout: fixed !important;
+  text-align: left;
+  background-color: #e0e6dd;
 }
